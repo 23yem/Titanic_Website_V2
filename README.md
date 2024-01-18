@@ -1,7 +1,7 @@
 
-# Titanic Survival Prediction Project
+# Titanic Survival Prediction Project PORTFOLIO WEBSITE
 
-Welcome to the Titanic Survival Prediction Project! This website is a detailed showcase of my machine learning journey with the Titanic dataset from Kaggle. Through this project, I've explored various machine learning models and techniques to predict the survival of passengers aboard the Titanic.
+Welcome to the Titanic Survival Prediction Project Portfolio Website! This website is a detailed showcase of my machine learning journey with the Titanic dataset from Kaggle. Through this project, I've explored various machine learning models and techniques to predict the survival of passengers aboard the Titanic.
 
 ## Project Overview
 
