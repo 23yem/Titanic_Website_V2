@@ -37,6 +37,8 @@
             list-style-type: none; /* Remove list bullets */
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
+            display: flex; /* Add this line */
+            flex-wrap: nowrap; /* Add this line to prevent wrapping */
         }
         nav ul li {
             display: inline; /* Display nav items in a line */
@@ -45,10 +47,19 @@
         nav ul li a {
             color: #007bff; /* Set link color */
             text-decoration: none; /* Remove text underline */
-            font-size: 0.65rem; /* Smaller font size for nav links */
+            font-size: 0.6rem; /* Smaller font size for nav links */
+            padding: 5px 10px; /* Add padding to give a button-like appearance */
+            border-radius: 50px; /* Rounded corners */
+            transition: background-color 0.3s, color 0.3s; /* Transition for smooth color change */
+            background-color: #007bff; /* Set background color */
+            color: #fff; /* Set text color */
         }
+
+        /* Change color on hover */
         nav ul li a:hover {
-            text-decoration: underline; /* Underline on hover */
+            background-color: #0056b3; /* Change background color on hover */
+            color: #fff; /* Keep text color the same on hover */
+            text-decoration: underline; /* Add underline on hover */
         }
     </style>
     <title>Home - Titanic Survival Project</title>
