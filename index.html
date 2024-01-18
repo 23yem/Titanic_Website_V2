@@ -4,53 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <title>Titanic Survival Machine Learning Project</title>
+    <style>
+        body {
+            font-size: 0.7rem; /* Base font size */
+        }
+        .container {
+            max-width: 700px; /* Max-width for the container */
+            margin: auto; /* Center the container */
+        }
+        figure img {
+            width: 100%; /* Full width of its container */
+            max-width: 450px; /* Max width of the image */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Block display to respect max-width */
+            margin: 0 auto; /* Center the image */
+        }
+        h2 {
+            font-size: 1.2rem; /* Heading size */
+        }
+        h3 {
+            font-size: 1rem; /* Subheading size */
+        }
+        p {
+            font-size: 0.7rem; /* Paragraph text size */
+        }
+        /* Ensure the main content is visible */
+        main {
+            padding: 1rem 0; /* Add padding around main content */
+        }
+        nav ul {
+            padding: 0.5rem 0; /* Padding for nav */
+            list-style-type: none; /* Remove list bullets */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        nav ul li {
+            display: inline; /* Display nav items in a line */
+            margin-right: 10px; /* Right margin for spacing */
+        }
+        nav ul li a {
+            color: #007bff; /* Set link color */
+            text-decoration: none; /* Remove text underline */
+            font-size: 0.65rem; /* Smaller font size for nav links */
+        }
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+    <title>Home - Titanic Survival Project</title>
 </head>
 <body>
     <nav class="container-fluid">
         <ul>
-            <li><strong>Project Titanic</strong></li>
+            <li><strong>Project Titanic: Random Forests</strong></li>
         </ul>
         <ul>
-            <li><a href="#models">Models</a></li>
-            <li><a href="#preprocessing">Data Preprocessing</a></li>
-            <li><a href="#tuning">Hyperparameter Tuning</a></li>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="https://github.com/23yem/Final-Titanic-Machine-Learning" target="_blank">GitHub Repository</a></li>
+            <li><a href="Neural_Network.html" target="_blank">Neural Networks</a></li>
+            <li><a href="Gradient_Boosted.html" target="_blank">Gradient Boosted Trees</a></li>
+            <li><a href="Data_Preprocessing.html" target="_blank">Data Preprocessing</a></li>
+            <li><a href="Random_Forest.html" target="_blank">Random Forest</a></li>
+            <li><a href="Hyperparameter_Tuning.html" target="_blank">Hyperparameter Tuning</a></li>
         </ul>
     </nav>
     <main class="container">
         <div class="grid">
             <section>
                 <hgroup>
-                    <h2>Welcome to the Titanic Survival Machine Learning Project</h2>
-                    <h3>Exploring the Depths of Data Science</h3>
+                    <h2>Titanic Survival Prediction</h2>
+                    <h3>My first project</h3>
                 </hgroup>
-                <p>This project is part of the Kaggle Titanic Machine Learning competition. It showcases various machine learning models such as Neural Networks, Random Forests, and Gradient Boosted Trees, among others. Detailed explanations of data preprocessing steps and hyperparameter tunings are also provided.</p>
+                <p>This is my first Machine Learning Project. The project employs a variety of machine learning models, including Random Forests, Gradient Boosted Trees, and Neural Networks, to predict survival. Techniques for data cleaning, feature engineering, and model tuning are thoroughly documented in the Jupyter notebooks.</p>
                 <figure>
-                    <img src="https://source.unsplash.com/featured/?titanic" alt="Titanic Image" />
-                    <figcaption>Visit our <a href="https://github.com/23yem/Final-Titanic-Machine-Learning" target="_blank">GitHub Repository</a> for more details.</figcaption>
+                    <img src="https://services.meteored.com/img/article/titanic-10-curiosidades-sobre-el-naufragio-mas-famoso-de-la-historia-1681429632845_1280.jpg" alt="Titanic" />
+                    <figcaption>Feel free to navigate to the other web pages above to look at the different parts of the project. And also feel free to go to the github page for a more in-depth view of my project.</figcaption>
                 </figure>
-                <h3>Explore the Models</h3>
-                <p>Dive into the intricacies of each machine learning model used in this project. Understand how each model contributes to solving the mystery of the Titanic survival prediction.</p>
-                <h3>Data Preprocessing and Hyperparameter Tuning</h3>
-                <p>Learn about the data preprocessing techniques and the hyperparameter tuning strategies that were crucial in enhancing the performance of the models.</p>
             </section>
         </div>
     </main>
-    <section aria-label="GitHub Repository">
-        <div class="container">
-            <article>
-                <hgroup>
-                    <h2>Explore Our GitHub Repository</h2>
-                    <h3>Deep Dive into Our Code and Methodologies</h3>
-                </hgroup>
-                <form class="grid">
-                    <input type="button" value="Visit GitHub" onclick="window.location.href='https://github.com/23yem/Final-Titanic-Machine-Learning';" />
-                </form>
-            </article>
-        </div>
-    </section>
     <footer class="container">
-        <small><a href="#">Home</a> • <a href="#about">About</a></small>
+        <small><a href="index.html">Home</a> </small>
     </footer>
 </body>
 </html>
