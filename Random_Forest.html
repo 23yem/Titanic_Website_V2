@@ -6,33 +6,49 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <style>
         body {
-            font-size: 0.7rem; /* Further reduce the base font size */
+            font-size: 0.7rem; /* Base font size */
         }
         .container {
-            max-width: 700px; /* Set a max-width for the container */
+            max-width: 700px; /* Max-width for the container */
             margin: auto; /* Center the container */
         }
-        nav ul { 
-            padding: 0.5rem 0; /* Maintain padding for nav */
+        nav ul {
+            padding: 0.5rem 0; /* Padding for nav */
+            list-style-type: none; /* Remove list bullets */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
         }
-        nav, main, footer {
-            padding: 1rem 0; /* Maintain padding to top and bottom of sections */
+        nav ul li {
+            display: inline; /* Display nav items in a line */
+            margin-right: 10px; /* Right margin for spacing */
+        }
+        nav ul li a {
+            color: #007bff; /* Set link color */
+            text-decoration: none; /* Remove text underline */
+            font-size: 0.65rem; /* Smaller font size for nav links */
+        }
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
         }
         figure img {
             width: 100%; /* Full width of its container */
-            max-width: 450px; /* Further reduce max width of the image */
+            max-width: 450px; /* Max width of the image */
             height: auto; /* Maintain aspect ratio */
             display: block; /* Block display to respect max-width */
             margin: 0 auto; /* Center the image */
         }
         h2 {
-            font-size: 1.2rem; /* Further reduce heading size */
+            font-size: 1.2rem; /* Heading size */
         }
         h3 {
-            font-size: 1rem; /* Further reduce subheading size */
+            font-size: 1rem; /* Subheading size */
         }
         p {
-            font-size: 0.7rem; /* Make paragraph text smaller */
+            font-size: 0.7rem; /* Paragraph text size */
+        }
+        /* Ensure the main content is visible */
+        main {
+            padding: 1rem 0; /* Add padding around main content */
         }
     </style>
     <title>Random Forests - Titanic Survival Project</title>
@@ -59,7 +75,7 @@
                 </hgroup>
                 <p>This page provides a detailed overview of the Random Forests model used in the Titanic Survival Machine Learning Project. It covers the model's mechanics, advantages, implementation, and performance metrics.</p>
                 <figure>
-                    <img src="https://source.unsplash.com/featured/?forest" alt="Random Forest Image" />
+                    <img src="https://serokell.io/files/vz/vz1f8191.Ensemble-of-decision-trees.png" alt="Random Forest Image" />
                     <figcaption>In-depth look at Random Forests.</figcaption>
                 </figure>
             </section>
@@ -70,6 +86,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
